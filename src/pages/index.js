@@ -1,118 +1,121 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Head from 'next/head'
+import path from 'path'
+import fsPromises from 'fs/promises'
+import { Inconsolata } from 'next/font/google'
+import { useState, useEffect } from 'react';
 
-const inter = Inter({ subsets: ['latin'] })
+const inco = Inconsolata({ subsets: ['latin'] })
 
-export default function Home() {
-  return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/pages/index.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+export const getStaticProps = async ()=>{
+	const filePath = path.join(process.cwd(), 'lib/data.json');
+	const data = await fsPromises.readFile(filePath);
+	const objects = JSON.parse(data);
+  objects.queries.map( (query)=>{
+    let _options = [];
+    query.options.map( (option, j)=>{
+      _options.push({
+        "label": option,
+        "correct": (j == query.a),
+      })
+    });
+    query.options = arrayShuffle(_options);
+  });
+  const _queries = arrayShuffle(objects.queries);
+
+	return {
+		props: {"queries": _queries},
+	};
+}
+
+const arrayShuffle = ([..._array]) => {
+  _array.sort( ()=> 0.5 - Math.random());
+  return _array;
+}
+
+
+export default function Home({queries}) {
+
+  const [index, setIndex] = useState(0);
+  const max = queries.length;
+  const hasNext = index < max - 1;
+  const hasPrev = index > 0;
+  const PRE = ['A', 'B', 'C', 'D', 'E']
+
+  const [show, setShow] = useState(false);
+  const [seikai, setSeikai] = useState(false);
+  const [maru, setMaru] = useState(0);
+  const [batsu, setBatsu] = useState(0);
+
+
+  function good(){
+    if(show || seikai) return;
+    setSeikai(true);
+    setMaru( maru+1);
+    setTimeout( next, 1500)
+  }
+  function wrong(){
+    if(show || seikai) return;
+    setShow(true);
+    setBatsu( batsu+1);
+  }
+  function next(){
+    setShow(false);
+    setSeikai(false);
+    if( hasNext ){
+      setIndex( index+1 );
+    }else{
+      setIndex(0);
+    }
+  }
+  function prev(){
+    setShow(false);
+    setSeikai(false);
+    if(hasPrev){
+      setIndex( index-1);
+    }else{
+      setIndex(max-1);
+    }
+  }
+  let query = queries[index];
+
+  const Button = ({label, correct, show, seikai}) => {
+    return <button className={`w-full px-3 py-3 text-left ${(!seikai || !correct) ? 'md:hover:bg-gray-900' : ''} ${(seikai && correct) ? 'text-green-500 bg-green-900' : ''} ${show ? (correct ? 'text-green-500' : 'text-red-500') : 'text-white'}`} onClick={()=>{ correct ? good() : wrong()  }}>{label}</button>;
+  }
+
+	return (
+    <>
+    <Head>
+      <meta name="robots" content="noindex,nofollow" />
+    </Head>
+		<main className={`flex flex-wrap min-h-screen min-w-full items-center justify-center p-4 ${inco.className}`}>
+      <h1 className={`fixed left-4 top-4 text-xl leading-5 font-bold text-center text-gray-500`}>The Quiz</h1>
+      <div className={`fixed right-4 top-4 flex items-center text-xl leading-5`}>
+        <p className={`text-green-600`}>{maru}</p>
+        <p className={` text-gray-600`}>&nbsp;/&nbsp;</p>
+        <p className={`text-red-700`}>{batsu}</p>
+      </div>
+      <section className={`w-full lg:w-[50%]`}>
+        <div className={`relative w-full px-4 py-4 md:py-6 md:px-12 bg-gray-800 rounded-md shadow-md text-lg md:text-xl font-medium leading-5 md:leading-6`}>
+          <p>{query.q}</p>
+          <span className={`absolute right-2 top-1 text-gray-600 text-xs leading-3`}>{query.id}</span>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+        <div className={`w-full px-2 py-2 md:px-9 md:py-6 mt-4 bg-gray-800 rounded-md shadow-md text-base md:text-lg divide-y divide-dashed divide-gray-600 leading-5 md:leading-6`}>
+          {
+            query.options.map( (option, i) => (
+              <Button label={`${PRE[i]}. ${option.label}`} correct={option.correct} show={show} seikai={seikai} key={i} />
+            ))
+          }
+        </div>
+        <div className={`flex justify-between items-center mt-4`}>
+          <button className={`flex items-center rounded-md w-1/3 py-4 pl-6 bg-gray-800 md:hover:bg-pink-900`} onClick={prev}><svg className={`w-6 h-6 text-white`} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M13 5H1m0 0 4 4M1 5l4-4"/></svg></button>
+          <p className={`w-1/3 text-center font-medium text-lg`}>
+            <span>{`${index+1}`}</span>
+            <small>{` / ${max}`}</small>
           </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+          <button className={`flex items-center rounded-md w-1/3 justify-end py-4 pr-6 bg-gray-800 md:hover:bg-pink-900`} onClick={next}><svg className={`w-6 h-6 text-white`} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg></button>
+        </div>
+      </section>
+		</main>
+    </>
+	)
 }

@@ -1,0 +1,76 @@
+{
+	"queries":[
+		{
+			"id": 1,
+			"q": "Which position does the codename \"Jonior Shifu\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 2,
+			"q": "Which position does the codename \"Swift Blade\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 3,
+			"q": "Which position does the codename \"Truth Seeker\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 4,
+			"q": "Which position does the codename \"Red Mercury\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 5,
+			"q": "Which position does the codename \"Deadly Nightshade\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 158,
+			"q": "Assuming the game starts on day 1, which is not right? (n=0, 1, 2, 3...)",
+			"options": [
+				"New Clan Chief will be determined at 0:00 on day 3+4n",
+				"New Guild Master will be determined at 0:00 on day 6+8n",
+				"New District Rep will be determined at 0:00 on day 9+16n",
+				"New City Mayor will be determined at 0:00 on day 17+32n",
+				"New World Elders will be determined at 0:00 on day 33+32n"
+			],
+			"a": 1
+		}
+	]
+}
