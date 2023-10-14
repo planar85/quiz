@@ -1,7 +1,7 @@
 {
 	"queries":[
 		{
-			"id": 1,
+			"id": 5,
 			"q": "Which position does the codename \"Jonior Shifu\" belong to?",
 			"options": [
 				"Archer",
@@ -13,7 +13,7 @@
 			"a": 1
 		},
 		{
-			"id": 2,
+			"id": 20,
 			"q": "Which position does the codename \"Swift Blade\" belong to?",
 			"options": [
 				"Archer",
@@ -25,7 +25,7 @@
 			"a": 1
 		},
 		{
-			"id": 3,
+			"id": 27,
 			"q": "Which position does the codename \"Truth Seeker\" belong to?",
 			"options": [
 				"Archer",
@@ -37,7 +37,7 @@
 			"a": 3
 		},
 		{
-			"id": 4,
+			"id": 32,
 			"q": "Which position does the codename \"Red Mercury\" belong to?",
 			"options": [
 				"Archer",
@@ -49,7 +49,7 @@
 			"a": 1
 		},
 		{
-			"id": 5,
+			"id": 39,
 			"q": "Which position does the codename \"Deadly Nightshade\" belong to?",
 			"options": [
 				"Archer",
@@ -59,6 +59,1792 @@
 				"Tank"
 			],
 			"a": 1
+		},
+		{
+			"id": 55,
+			"q": "Which position does the codename \"Space Captain\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 59,
+			"q": "Which position does the codename \"Tech Tinker\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 63,
+			"q": "Which position does the codename \"Iron Lady\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 95,
+			"q": "Which position does the codename \"Nano Swamp\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 96,
+			"q": "Which position does the codename \"Black Sapphire\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 102,
+			"q": "Which position does the codename \"Ascetic Monk\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 107,
+			"q": "Which position does the codename \"Field Medic\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 113,
+			"q": "Which position does the codename \"Blackmarket Baroness\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 118,
+			"q": "Which position does the codename \"Lone Werewolf\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 120,
+			"q": "Which position does the codename \"The Trailblazer\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 9,
+			"q": "How much energy does each rare hero provide",
+			"options": [
+				"1",
+				"2",
+				"3",
+				"4",
+				"5"
+			],
+			"a": 2
+		},
+		{
+			"id": 60,
+			"q": "How much energy does each legendary hero provide?",
+			"options": [
+				"1",
+				"2",
+				"3",
+				"4",
+				"5"
+			],
+			"a": 4
+		},
+		{
+			"id": 65,
+			"q": "How many weapons can a hero equip at one time?",
+			"options": [
+				"1",
+				"2",
+				"3",
+				"4",
+				"5"
+			],
+			"a": 0
+		},
+		{
+			"id": 28,
+			"q": "How many power-up items are needed when levelling up a hero from level 25 to 26?",
+			"options": [
+				"1",
+				"2",
+				"6",
+				"8",
+				"54"
+			],
+			"a": 2
+		},
+		{
+			"id": 22,
+			"q": "How many fragment types for troop assets?",
+			"options": [
+				"1",
+				"3",
+				"4",
+				"5",
+				"100"
+			],
+			"a": 1
+		},
+		{
+			"id": 26,
+			"q": "What is the number of GMT required when levelling up a hero from level 9 to 10?",
+			"options": [
+				"1",
+				"4",
+				"12",
+				"36",
+				"108"
+			],
+			"a": 0
+		},
+		{
+			"id": 21,
+			"q": "What is the number of GMT required when levelling up a hero from level 9 to 10?",
+			"options": [
+				"2",
+				"3",
+				"4",
+				"5",
+				"6"
+			],
+			"a": 2
+		},
+		{
+			"id": 31,
+			"q": "How many fixed attributes types does each weapon has?",
+			"options": [
+				"2",
+				"3",
+				"4",
+				"5",
+				"6"
+			],
+			"a": 0
+		},
+		{
+			"id": 62,
+			"q": "What is the GMT cost of breeding for a Legendary single parent?",
+			"options": [
+				"2",
+				"6",
+				"20",
+				"60",
+				"200"
+			],
+			"a": 4
+		},
+		{
+			"id": 1,
+			"q": "What is the upper limit of probability from rarity common to uncommon in a pet evolution process?",
+			"options": [
+				"5%",
+				"50%",
+				"60%",
+				"70%",
+				"80%"
+			],
+			"a": 4
+		},
+		{
+			"id": 2,
+			"q": "How many fragments are needed to obtain a pet?",
+			"options": [
+				"10",
+				"20",
+				"50",
+				"80",
+				"100"
+			],
+			"a": 4
+		},
+		{
+			"id": 3,
+			"q": "How many clans in one guild?",
+			"options": [
+				"6",
+				"7",
+				"8",
+				"8",
+				"9"
+			],
+			"a": 4
+		},
+		{
+			"id": 4,
+			"q": "What percentage of tax will the creator get for genesis heroes?",
+			"options": [
+				"0%",
+				"2%",
+				"4%",
+				"6%",
+				"8%"
+			],
+			"a": 1
+		},
+		{
+			"id": 6,
+			"q": "What is the learning probability of the 6th skill when a hero is levelling up?",
+			"options": [
+				"4%",
+				"5%",
+				"6%",
+				"8%",
+				"10%"
+			],
+			"a": 1
+		},
+		{
+			"id": 8,
+			"q": "What is the probability base from rarity epic to legendary in a pet evolution process?",
+			"options": [
+				"5%",
+				"50%",
+				"60%",
+				"70%",
+				"80%"
+			],
+			"a": 0
+		},
+		{
+			"id": 10,
+			"q": "What is the max level of a Epic hero?",
+			"options": [
+				"20",
+				"30",
+				"40",
+				"50",
+				"60"
+			],
+			"a": 3
+		},
+		{
+			"id": 11,
+			"q": "GasHero's market trading currency is GMT, which platform will be the market conducted on?",
+			"options": [
+				"Blur",
+				"MagicEden",
+				"Polygon",
+				"Opensea",
+				"MOOAR"
+			],
+			"a": 4
+		},
+		{
+			"id": 12,
+			"q": "What will be consumed when heroes use their skills in a battle?",
+			"options": [
+				"HP",
+				"SP",
+				"Time",
+				"Action bar",
+				"Rage bar"
+			],
+			"a": 1
+		},
+		{
+			"id": 13,
+			"q": "How much will the twins probability increase for breeding if there's already 6 times breed?",
+			"options": [
+				"10%",
+				"15%",
+				"20%",
+				"25%",
+				"30%"
+			],
+			"a": 4
+		},
+		{
+			"id": 14,
+			"q": "What is the hero Power-up cost of minting for a rare single parent?",
+			"options": [
+				"30",
+				"100",
+				"300",
+				"1000",
+				"3000"
+			],
+			"a": 2
+		},
+		{
+			"id": 15,
+			"q": "In Gas Hero, what frequency does the Clan Boss appear?",
+			"options": [
+				"Every hour",
+				"Every day",
+				"Every four days",
+				"Every week",
+				"Every other day"
+			],
+			"a": 2
+		},
+		{
+			"id": 16,
+			"q": "What is the chance of getting an uncommon hero by minting two epic heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 1
+		},
+		{
+			"id": 17,
+			"q": "What are the fixed attributes of a Dagger weapon?",
+			"options": [
+				"Attack, Speed",
+				"Attack, Combo",
+				"Attack, Counter",
+				"Attakc, Critical",
+				"Attack, HP"
+			],
+			"a": 0
+		},
+		{
+			"id": 18,
+			"q": "When reforging a weapon, which statement is not right?",
+			"options": [
+				"When the number of consecutive reforgings reaches a certain number, the higher limit of the random value range will be increased, which can happen multiple times.",
+				"The values of all attributes of the weapon will be randomly reshuffled within a certain range.",
+				"Selling will result in the accumulated number of reforgings being reset to 0.",
+				"The types and amount of attributes of the weapon will not change.",
+				"If there is no reforging for 1 hour, the accumulated number of reforgings will be reset to 0."
+			],
+			"a": 0
+		},
+		{
+			"id": 19,
+			"q": "What will be the maximum energy increase if you level up your base to level 5?",
+			"options": [
+				"2",
+				"4",
+				"6",
+				"8",
+				"10"
+			],
+			"a": 3
+		},
+		{
+			"id": 23,
+			"q": "What is the chance of obtaining a higher rarity of a hero by fragments?",
+			"options": [
+				"1%",
+				"2%",
+				"3%",
+				"4%",
+				"5%"
+			],
+			"a": 4
+		},
+		{
+			"id": 24,
+			"q": "How long will a rare hero live if he/she is exposed to radiation?",
+			"options": [
+				"20",
+				"30",
+				"40",
+				"50",
+				"60"
+			],
+			"a": 2
+		},
+		{
+			"id": 25,
+			"q": "What is the learning probability of the 3rd skill when a hero is levelling up?",
+			"options": [
+				"20%",
+				"14%",
+				"10%",
+				"8%",
+				"6%"
+			],
+			"a": 2
+		},
+		{
+			"id": 29,
+			"q": "Which is the special function for a Crab pet?",
+			"options": [
+				"Add speed",
+				"Rage bar fills up faster",
+				"Increase initial action bar value",
+				"Increase initial rage bar value",
+				"Action bar fills up faster"
+			],
+			"a": 1
+		},
+		{
+			"id": 30,
+			"q": "Who is Gas King?",
+			"options": [
+				"The most handsome guy in the year of 2084",
+				"The most smart guy in the year of 2084",
+				"The most powerful guy in the year of 2084",
+				"I give up this quiz",
+				"I agree with all above (the right answer)"
+			],
+			"a": 4
+		},
+		{
+			"id": 33,
+			"q": "WhiWhat is the chance of getting a legendary hero from a hero capsule?ch",
+			"options": [
+				"0%",
+				"20%",
+				"25%",
+				"50%",
+				"unminted quantity / 10000"
+			],
+			"a": 0
+		},
+		{
+			"id": 34,
+			"q": "What is the basic activity percentage a player needs to meet in order not to be cancelled from the settlement?",
+			"options": [
+				"5%",
+				"10%",
+				"15%",
+				"20%",
+				"25%"
+			],
+			"a": 1
+		},
+		{
+			"id": 35,
+			"q": "What is the hero Power-up cost of minting for two legendary parents?",
+			"options": [
+				"60",
+				"200",
+				"600",
+				"2000",
+				"6000"
+			],
+			"a": 4
+		},
+		{
+			"id": 36,
+			"q": "Which is not the time of new products appear in the guild auction house?",
+			"options": [
+				"01:00 UTC",
+				"07:00 UTC",
+				"12:00 UTC",
+				"13:00 UTC",
+				"19:00 UTC"
+			],
+			"a": 2
+		},
+		{
+			"id": 37,
+			"q": "What is the chance of getting a legendary hero by minting two epic heroes?",
+			"options": [
+				"no chance",
+				"4.80%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 1
+		},
+		{
+			"id": 38,
+			"q": "How much will the twins probability increase for breeding if there's already 5 times breed?",
+			"options": [
+				"10%",
+				"15%",
+				"20%",
+				"25%",
+				"30%"
+			],
+			"a": 2
+		},
+		{
+			"id": 40,
+			"q": "What is the hero Power-up cost of minting for a legendary single parent?",
+			"options": [
+				"30",
+				"100",
+				"300",
+				"1000",
+				"3000"
+			],
+			"a": 4
+		},
+		{
+			"id": 41,
+			"q": "How many pet evolution items are needed if a player intends to evolve a common pet from tier 1 to 2?",
+			"options": [
+				"50",
+				"100",
+				"200",
+				"300",
+				"400"
+			],
+			"a": 0
+		},
+		{
+			"id": 42,
+			"q": "What kind of so-called \"experiment\" does Gas Hero aim to carry out?",
+			"options": [
+				"Game Experiment",
+				"Math Experiment",
+				"Web3 Experiment",
+				"Social Experiment",
+				"Hero Experiment"
+			],
+			"a": 3
+		},
+		{
+			"id": 43,
+			"q": "What will be the maximum energy increase if you level up your base to level 21?",
+			"options": [
+				"32",
+				"34",
+				"36",
+				"38",
+				"40"
+			],
+			"a": 4
+		},
+		{
+			"id": 44,
+			"q": "Which is the special function for a Panda pet?",
+			"options": [
+				"Rage bar fills up faster",
+				"Increase initial rage bar value",
+				"Action bar fills up faster",
+				"Add speed",
+				" Increase initial action bar value"
+			],
+			"a": 2
+		},
+		{
+			"id": 45,
+			"q": "What are the fixed attributes of n Axe weapon?",
+			"options": [
+				"Attack, Speed",
+				"Attack, Combo",
+				"Attack, Critical",
+				"Attack, HP",
+				"Attack, Counter"
+			],
+			"a": 2
+		},
+		{
+			"id": 46,
+			"q": "What is the hero Power-up cost of minting for an uncommon single parent?",
+			"options": [
+				"30",
+				"100",
+				"300",
+				"1000",
+				"3000"
+			],
+			"a": 1
+		},
+		{
+			"id": 47,
+			"q": "In hero minting process, what is the chance of getting the same codename as either of its parents?",
+			"options": [
+				"no chance",
+				"10%",
+				"20%",
+				"30%",
+				"80%"
+			],
+			"a": 4
+		},
+		{
+			"id": 48,
+			"q": "What is the chance of getting a common hero from a hero capsule?",
+			"options": [
+				"5%",
+				"20%",
+				"25%",
+				"50%",
+				"75%"
+			],
+			"a": 4
+		},
+		{
+			"id": 49,
+			"q": "What is the chance of getting an uncommon hero from a hero capsule?",
+			"options": [
+				"5%",
+				"20%",
+				"25%",
+				"50%",
+				"75%"
+			],
+			"a": 1
+		},
+		{
+			"id": 50,
+			"q": "Below each hero is a horizontal rage bar, which increases when the hero acts or is attacked. When the bar is full, how long will the hero's action bar recharge rate will be doubled?",
+			"options": [
+				"10 seconds",
+				"15 seconds",
+				"30 seconds",
+				"1 attack round",
+				"whole battle"
+			],
+			"a": 1
+		},
+		{
+			"id": 51,
+			"q": "What is the max level can a non-genesis hero reach?",
+			"options": [
+				"20",
+				"40",
+				"60",
+				"80",
+				"unlimited"
+			],
+			"a": 2
+		},
+		{
+			"id": 52,
+			"q": "What is the GMT cost of minting for two Rare parents?",
+			"options": [
+				"4",
+				"12",
+				"40",
+				"120",
+				"400"
+			],
+			"a": 2
+		},
+		{
+			"id": 53,
+			"q": "Which of the statements about Gas Hero is not correct?",
+			"options": [
+				"The total number of Genesis Heroes is 20K",
+				"The game will keep track of the spendable GMT in game for the user.",
+				"The in-game spendable GMT is locked inside the contract and cannot be spent by anyone else other than the user himself / herself.",
+				"Players need to first deposit GMT into a smart contract to make the GMT spendable inside the game.",
+				"Genesis heroes will never die"
+			],
+			"a": 0
+		},
+		{
+			"id": 54,
+			"q": "How much energy is to be restored everyday?",
+			"options": [
+				"25%",
+				"50%",
+				"75%",
+				"100%",
+				"125%"
+			],
+			"a": 3
+		},
+		{
+			"id": 56,
+			"q": "What is the chance of getting an epic hero by breeding two common heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 0
+		},
+		{
+			"id": 57,
+			"q": "What combat mode does Gas Hero use?",
+			"options": [
+				"Gamepad mode",
+				"Voice control mode",
+				"Automatic combat mode",
+				"VR mode",
+				"Keyboard typing mode"
+			],
+			"a": 2
+		},
+		{
+			"id": 61,
+			"q": "Which of the following statements is not right about nuclear radiation?",
+			"options": [
+				"The higher the rarity of the hero, the more nuclear radiationthey can withstand",
+				"Heroes with higher level can withstand the radiation for a longer period of time",
+				"Heroes with higher rarity can withstand the radiation for a longer period of time",
+				"Heroes with higher rarity can withstand the radiation for a longer period of time",
+				"The genesis heroes never die"
+			],
+			"a": 1
+		},
+		{
+			"id": 104,
+			"q": "Which of the following statements is not right about nuclear radiation?",
+			"options": [
+				"The genesis heroes never die",
+				"Heroes equipped with pets can withstand the radiation for a longer period of time",
+				"Heroes with higher rarity can withstand the radiation for a longer period of time",
+				"The number of days the hero can survive is not the same, as it depends on their rarity",
+				"The higher the rarity of the hero, the more nuclear radiationthey can withstand"
+			],
+			"a": 1
+		},
+		{
+			"id": 64,
+			"q": "Which attribute will increase when levelling up a hero?",
+			"options": [
+				"Rarity",
+				"Defense",
+				"SP",
+				"Speed",
+				"All above"
+			],
+			"a": 1
+		},
+		{
+			"id": 66,
+			"q": "What is the GMT cost of breeding for two Legendary parents?",
+			"options": [
+				"4",
+				"12",
+				"40",
+				"120",
+				"400"
+			],
+			"a": 4
+		},
+		{
+			"id": 67,
+			"q": "What is required if a player choose to move to a new location if they are not satisfied with his settlement location?",
+			"options": [
+				"Move base item",
+				"Base construction vehicle",
+				"Hero badge",
+				"Genesis hero",
+				"GMT"
+			],
+			"a": 0
+		},
+		{
+			"id": 68,
+			"q": "What will be the maximum energy increase if you level up your base to level 6?",
+			"options": [
+				"2",
+				"4",
+				"6",
+				"8",
+				"10"
+			],
+			"a": 4
+		},
+		{
+			"id": 69,
+			"q": "About the clan adventure, which of the below statements is wrong?",
+			"options": [
+				"When the players in this clan have collectively expended 1200 points of energy, the clan will have an opportunity for a clan adventure.",
+				"Top 3 members of the clan have a set period of combat time.",
+				"After clan members submit their lineups, the leader can launch the adventure.",
+				"Clan adventures have multiple difficulties, each of which can yield different types of resources.",
+				"A successful mission is achieved by defeating a certain amount of enemies. The more enemies defeated, the greater the rewards."
+			],
+			"a": 1
+		},
+		{
+			"id": 70,
+			"q": "When the base is at level 1, how much energy will it provide?",
+			"options": [
+				"2",
+				"5",
+				"17.5",
+				"30",
+				"38"
+			],
+			"a": 3
+		},
+		{
+			"id": 71,
+			"q": "How many male genesis heroes in Gas Hero?",
+			"options": [
+				"240",
+				"360",
+				"480",
+				"520",
+				"640"
+			],
+			"a": 2
+		},
+		{
+			"id": 72,
+			"q": "What is the chance of getting an epic hero by breeding two epic heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"10%",
+				"85%",
+				"95%"
+			],
+			"a": 3
+		},
+		{
+			"id": 73,
+			"q": "How many fixed attribute types does each weapon has?",
+			"options": [
+				"2",
+				"3",
+				"4",
+				"5",
+				"6"
+			],
+			"a": 0
+		},
+		{
+			"id": 75,
+			"q": "Which time is not the energy restored time?",
+			"options": [
+				"00:00 UTC",
+				"06:00 UTC",
+				"12:00 UTC",
+				"18:00 UTC",
+				"22:00 UTC"
+			],
+			"a": 4
+		},
+		{
+			"id": 76,
+			"q": "What is the chance of getting a common hero by breeding two common heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 4
+		},
+		{
+			"id": 77,
+			"q": "What is the max skills number can a genesis hero learn?",
+			"options": [
+				"3",
+				"4",
+				"5",
+				"6",
+				"7"
+			],
+			"a": 4
+		},
+		{
+			"id": 78,
+			"q": "In the storyline, with the awakening of AI, in which year did the nuclear strike happen?",
+			"options": [
+				"2023",
+				"2034",
+				"2046",
+				"2080",
+				"2084"
+			],
+			"a": 4
+		},
+		{
+			"id": 79,
+			"q": "What are the fixed attributes of a Bow weapon?",
+			"options": [
+				"Attack, Defense",
+				"Attack, Combo",
+				"Attack, Counter",
+				"Attakc, Critical",
+				"Attack, HP"
+			],
+			"a": 2
+		},
+		{
+			"id": 80,
+			"q": "How many power-up items are needed when levelling up a hero from level 12 to 13?",
+			"options": [
+				"1",
+				"2",
+				"6",
+				"18",
+				"54"
+			],
+			"a": 1
+		},
+		{
+			"id": 81,
+			"q": "What is the chance of getting a legendary hero by breeding two uncommon heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 0
+		},
+		{
+			"id": 82,
+			"q": "What is the chance of getting a common hero by breeding two legendary heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"90%",
+				"95%"
+			],
+			"a": 0
+		},
+		{
+			"id": 83,
+			"q": "Which is not the primary attributes of a legendary hero in this game?",
+			"options": [
+				"HP",
+				"Defense",
+				"SP",
+				"Level",
+				"Attack"
+			],
+			"a": 3
+		},
+		{
+			"id": 84,
+			"q": "When the prosperity of the existing districts reaches a certain level, who can expand a new district?",
+			"options": [
+				"Guild Master",
+				"City Mayor",
+				"District Rep",
+				"Clan Chef",
+				"Gas King"
+			],
+			"a": 1
+		},
+		{
+			"id": 85,
+			"q": "What is the GMT cost of breeding for a Common single parent?",
+			"options": [
+				"2",
+				"6",
+				"20",
+				"60",
+				"200"
+			],
+			"a": 0
+		},
+		{
+			"id": 86,
+			"q": "How much energy does each epic hero provide?",
+			"options": [
+				"1",
+				"2",
+				"3",
+				"4",
+				"5"
+			],
+			"a": 3
+		},
+		{
+			"id": 87,
+			"q": "Which attribute will increase when levelling up a hero?",
+			"options": [
+				"Rarity",
+				"Attack",
+				"SP",
+				"Speed",
+				"All above"
+			],
+			"a": 1
+		},
+		{
+			"id": 88,
+			"q": "What will be the maximum energy increase if you level up your base to level 20?",
+			"options": [
+				"32",
+				"34",
+				"36",
+				"38",
+				"40"
+			],
+			"a": 3
+		},
+		{
+			"id": 89,
+			"q": "After a hero dies from nuclear radiation, what will they be converted into?",
+			"options": [
+				"Skill points",
+				"BCV",
+				"GMT",
+				"Hero experience",
+				"Weapon reforging material"
+			],
+			"a": 1
+		},
+		{
+			"id": 90,
+			"q": "Based on the hero's enhancement method, how many types of skill points will there be?",
+			"options": [
+				"3",
+				"6",
+				"9",
+				"12",
+				"15"
+			],
+			"a": 1
+		},
+		{
+			"id": 91,
+			"q": "Strength is used to express a player's overall combat ability, which part is not included in the strength calculation?",
+			"options": [
+				"Troop quality",
+				"Troop level",
+				"Weapon quality",
+				"Weapon number",
+				"Base level"
+			],
+			"a": 3
+		},
+		{
+			"id": 92,
+			"q": "Strength is used to express a player's overall combat ability, which part is not included in the strength calculation?",
+			"options": [
+				"Troop quality",
+				"Troop level",
+				"Weapon quality",
+				"Energy left",
+				"Base level"
+			],
+			"a": 3
+		},		{
+			"id": 93,
+			"q": "Strength is used to express a player's overall combat ability, which part is not included in the strength calculation?",
+			"options": [
+				"Troop quality",
+				"Troop level",
+				"Weapon quality",
+				"Base energy limit",
+				"Pet number"
+			],
+			"a": 4
+		},		{
+			"id": 94,
+			"q": "What is the gender of codename \"Iron lady\"?",
+			"options": [
+				"Non-binary",
+				"Male",
+				"Female",
+				"Dual gender",
+				"Other"
+			],
+			"a": 2
+		},
+		{
+			"id": 97,
+			"q": "How many female genesis heroes in Gas Hero?",
+			"options": [
+				"360240",
+				"480",
+				"520",
+				"640",
+				"2084"
+			],
+			"a": 1
+		},
+		{
+			"id": 98,
+			"q": "To start a guild adventure, how many total successful clan adventures need to be reached?",
+			"options": [
+				"10",
+				"25",
+				"40",
+				"50",
+				"100"
+			],
+			"a": 1
+		},
+		{
+			"id": 99,
+			"q": "Who can participate in the district auction?",
+			"options": [
+				"The guild leader",
+				"District rep",
+				"The clan leader",
+				"City mayer",
+				"Players who belong to this district"
+			],
+			"a": 4
+		},
+		{
+			"id": 100,
+			"q": "What is the GMT cost of breeding for two Common parents?",
+			"options": [
+				"4",
+				"12",
+				"40",
+				"120",
+				"400"
+			],
+			"a": 0
+		},
+		{
+			"id": 101,
+			"q": "How much energy does each uncommon hero provide?",
+			"options": [
+				"1",
+				"2",
+				"3",
+				"4",
+				"5"
+			],
+			"a": 1
+		},
+		{
+			"id": 103,
+			"q": "How many power-up items are needed when levelling up a hero from level 40 to 41?",
+			"options": [
+				"1",
+				"2",
+				"6",
+				"18",
+				"54"
+			],
+			"a": 4
+		},
+		{
+			"id": 105,
+			"q": "Which month did Gas Hero official Twitter be registered in 2023?",
+			"options": [
+				"April",
+				"May",
+				"June",
+				"July",
+				"August"
+			],
+			"a": 0
+		},
+		{
+			"id": 106,
+			"q": "How many reforging dusts can a player get if decompose a legendary weapon?",
+			"options": [
+				"5",
+				"15",
+				"50",
+				"150",
+				"500"
+			],
+			"a": 4
+		},
+		{
+			"id": 108,
+			"q": "How many power-up items are needed when levelling up a hero from level 59 to 60?",
+			"options": [
+				"2",
+				"6",
+				"18",
+				"54",
+				"162"
+			],
+			"a": 4
+		},
+		{
+			"id": 109,
+			"q": "Where can a player obtain weapon fragments?",
+			"options": [
+				"AI factory",
+				"Gas Minde",
+				"Zoo",
+				"Battlefiled",
+				"Living Area"
+			],
+			"a": 3
+		},
+		{
+			"id": 110,
+			"q": "What is the max level of an Uncommon hero?",
+			"options": [
+				"20",
+				"30",
+				"40",
+				"50",
+				"60"
+			],
+			"a": 1
+		},
+		{
+			"id": 111,
+			"q": "What is the GMT cost of breeding for an Uncommon single parent?",
+			"options": [
+				"2",
+				"6",
+				"20",
+				"60",
+				"200"
+			],
+			"a": 1
+		},
+		{
+			"id": 112,
+			"q": "How long will a legendary hero live if he/she is exposed to radiation?",
+			"options": [
+				"20",
+				"30",
+				"40",
+				"50",
+				"60"
+			],
+			"a": 4
+		},
+		{
+			"id": 114,
+			"q": "What is the chance of obtaining a higher rarity of a weapon by fragments?",
+			"options": [
+				"2%",
+				"5%",
+				"8%",
+				"10%",
+				"12%"
+			],
+			"a": 1
+		},
+		{
+			"id": 115,
+			"q": "What is the chance of getting an epic hero by breeding two legendary heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"4.80%",
+				"9.80%",
+				"10%"
+			],
+			"a": 3
+		},
+		{
+			"id": 116,
+			"q": "Which company developed Gas Hero?",
+			"options": [
+				"Find Satoshi Lab",
+				"Crypto World",
+				"Gas Master Inc.",
+				"Microsoft",
+				"SONY"
+			],
+			"a": 0
+		},
+		{
+			"id": 117,
+			"q": "How many base upgrade items are required to produce a BCV?",
+			"options": [
+				"10",
+				"20",
+				"40",
+				"80",
+				"100"
+			],
+			"a": 2
+		},
+		{
+			"id": 119,
+			"q": "What is the chance of getting a rare hero by breeding two common heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 1
+		},
+		{
+			"id": 121,
+			"q": "How much will the twins probability increase for breeding if there's already 3 times breed?",
+			"options": [
+				"5%",
+				"10%",
+				"15%",
+				"20%",
+				"25%"
+			],
+			"a": 2
+		},
+		{
+			"id": 122,
+			"q": "What is the chance of getting an uncommon hero by breeding two epic heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 1
+		},
+		{
+			"id": 123,
+			"q": "How many fragments are needed to obtain a hero?",
+			"options": [
+				"5",
+				"10",
+				"20",
+				"50",
+				"100"
+			],
+			"a": 4
+		},
+		{
+			"id": 124,
+			"q": "Where can a player get the base upgrade items?",
+			"options": [
+				"AI factory",
+				"Gas Minde",
+				"Zoo",
+				"Battlefiled",
+				"Living Area"
+			],
+			"a": 1
+		},
+		{
+			"id": 125,
+			"q": "What determines your hero's standard attack?",
+			"options": [
+				"Hero level",
+				"Weapon's level",
+				"Weapon type",
+				"Pet type",
+				"pet level"
+			],
+			"a": 2
+		},
+		{
+			"id": 126,
+			"q": "What is the chance of getting a common hero by breeding two epic heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 0
+		},
+		{
+			"id": 127,
+			"q": "What is the hero Power-up cost of breeding for a rare single parent?",
+			"options": [
+				"30",
+				"100",
+				"300",
+				"1000",
+				"3000"
+			],
+			"a": 2
+		},
+		{
+			"id": 128,
+			"q": "Which position does the codename \"Faith Healer\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 129,
+			"q": "Which attribute will increase when levelling up a hero?",
+			"options": [
+				"Rarity",
+				"HP",
+				"Speed",
+				"SP",
+				"All above"
+			],
+			"a": 1
+		},
+		{
+			"id": 130,
+			"q": "How many pet evolution items are needed if a player intends to evolve a common pet from tier 2 to 3?",
+			"options": [
+				"50",
+				"100",
+				"200",
+				"300",
+				"400"
+			],
+			"a": 1
+		},
+		{
+			"id": 131,
+			"q": "What is the number that a player can bring to a battle?",
+			"options": [
+				"6",
+				"7",
+				"8",
+				"9",
+				"10"
+			],
+			"a": 0
+		},
+		{
+			"id": 132,
+			"q": "What can a player get from a hero capsule?",
+			"options": [
+				"Common hero",
+				"Uncommon hero",
+				"Rare hero",
+				"Genesis hero",
+				"All above"
+			],
+			"a": 4
+		},
+		{
+			"id": 133,
+			"q": "How much energy is to be restored every 6 hours?",
+			"options": [
+				"25%",
+				"50%",
+				"75%",
+				"100%",
+				"125%"
+			],
+			"a": 0
+		},
+		{
+			"id": 134,
+			"q": "If a cake is divided into 8 equal pieces, how many pieces make up a half?",
+			"options": [
+				"2",
+				"3",
+				"4",
+				"5",
+				"6"
+			],
+			"a": 2
+		},
+		{
+			"id": 135,
+			"q": "In a battle, next to each hero, there is a vertical action bar. What is related to the recharge speed of this bar",
+			"options": [
+				"Hero's rarity",
+				"Hero's level",
+				"Hero's defense",
+				"Hero's attack",
+				"Hero's speed"
+			],
+			"a": 4
+		},
+		{
+			"id": 136,
+			"q": "Which of the following statements is not right about nuclear radiation?",
+			"options": [
+				"The genesis heroes never die",
+				"Heroes with higher rarity can withstand the radiation for a longer period of time",
+				"The legendary heroes never die",
+				"The number of days the hero can survive is not the same, as it depends on their rarity",
+				"The higher the rarity of the hero, the more nuclear radiationthey can withstand"
+			],
+			"a": 2
+		},
+		{
+			"id": 137,
+			"q": "What is the chance of getting a rare hero from a hero capsule?",
+			"options": [
+				"5%",
+				"20%",
+				"25%",
+				"50%",
+				"75%"
+			],
+			"a": 0
+		},
+		{
+			"id": 138,
+			"q": "What is the GMT cost of breeding for two Epic parents?",
+			"options": [
+				"4",
+				"12",
+				"40",
+				"120",
+				"400"
+			],
+			"a": 3
+		},
+		{
+			"id": 139,
+			"q": "How many times can a player challenge the Clan Boss when it appears?",
+			"options": [
+				"2",
+				"3",
+				"4",
+				"5",
+				"unlimited"
+			],
+			"a": 3
+		},
+		{
+			"id": 140,
+			"q": "How to determine a clan leader?",
+			"options": [
+				"The maximum amount of damage done to the boss in a single challenge of the clan boss",
+				"Who wins the most PvP battles",
+				"Most genesis hero holder",
+				"Most GMT holder (in-wallet)",
+				"Player voting"
+			],
+			"a": 0
+		},
+		{
+			"id": 141,
+			"q": "If you have 3 dozen cookies, how many individual cookies do you have?",
+			"options": [
+				"24",
+				"30",
+				"36",
+				"40",
+				"48"
+			],
+			"a": 2
+		},
+		{
+			"id": 142,
+			"q": "What is the number of GMT required when levelling up a hero from level 39 to 40?",
+			"options": [
+				"1",
+				"4",
+				"12",
+				"36",
+				"108"
+			],
+			"a": 2
+		},
+		{
+			"id": 143,
+			"q": "What is the GMT cost of breeding for an Epic single parent?",
+			"options": [
+				"2",
+				"6",
+				"20",
+				"60",
+				"200"
+			],
+			"a": 3
+		},
+		{
+			"id": 144,
+			"q": "Who can participate in the guild auction?",
+			"options": [
+				"City mayer",
+				"Players who belong to this guild",
+				"All members",
+				"The clan leader",
+				"The guild leader"
+			],
+			"a": 1
+		},
+		{
+			"id": 145,
+			"q": "Where can a player obtain hero power-up items?",
+			"options": [
+				"AI factory",
+				"Gas Minde",
+				"Zoo",
+				"Battlefiled",
+				"Living Area"
+			],
+			"a": 0
+		},
+		{
+			"id": 146,
+			"q": "What is the max level of a rare hero?",
+			"options": [
+				"20",
+				"30",
+				"40",
+				"50",
+				"60"
+			],
+			"a": 2
+		},
+		{
+			"id": 147,
+			"q": "How many tiers of pets are there in Gas Hero?",
+			"options": [
+				"1",
+				"3",
+				"5",
+				"7",
+				"9"
+			],
+			"a": 2
+		},
+		{
+			"id": 148,
+			"q": "Where can a player get the pet fragments?",
+			"options": [
+				"AI factory",
+				"Gas Minde",
+				"Zoo",
+				"Battlefiled",
+				"Living Area"
+			],
+			"a": 2
+		},
+		{
+			"id": 149,
+			"q": "Which one of below statements is not right?",
+			"options": [
+				"The clan chief can spend 5 GMT to change the clan name.",
+				"The guild master can spend 15 GMT to change the guild name.",
+				"The guild master can initiate guild adventures",
+				"The district rep can spend 20 GMT to change the district name.",
+				" The clan chief can initiate clan adventures."
+			],
+			"a": 1
+		},
+		{
+			"id": 150,
+			"q": "How long will an epic hero live if he/she is exposed to radiation?",
+			"options": [
+				"20",
+				"30",
+				"40",
+				"50",
+				"60"
+			],
+			"a": 3
+		},
+		{
+			"id": 151,
+			"q": "How much will the twins probability increase for breeding if there's already 1 times breed?",
+			"options": [
+				"5%",
+				"10%",
+				"15%",
+				"20%",
+				"25%"
+			],
+			"a": 0
+		},
+		{
+			"id": 152,
+			"q": "What is the hero Power-up cost of breeding for two epic parents?",
+			"options": [
+				"60",
+				"200",
+				"600",
+				"2000",
+				"6000"
+			],
+			"a": 3
+		},
+		{
+			"id": 153,
+			"q": "What are the fixed attributes of a Gun weapon?",
+			"options": [
+				"Attack, Defense",
+				"Attack, Speed",
+				"Attack, MP",
+				"Attack, Combo",
+				"Attack, Dodge"
+			],
+			"a": 4
+		},
+		{
+			"id": 154,
+			"q": "What is the number of GMT required when levelling up a hero from level 49 to 50?",
+			"options": [
+				"1",
+				"4",
+				"12",
+				"36",
+				"108"
+			],
+			"a": 3
+		},
+		{
+			"id": 155,
+			"q": "What is the key difference between a hero and a genesis hero?",
+			"options": [
+				"Genesis hero level up quicker",
+				"Genesis hero never die",
+				"Genesis hero has a better quality",
+				"Genesis hero only has tank position",
+				"Genesis hero has better attributes"
+			],
+			"a": 1
+		},
+		{
+			"id": 156,
+			"q": "In the storyline of Gas Hero, which year did the technological revolution happened?",
+			"options": [
+				"2023",
+				"2034",
+				"2046",
+				"2080",
+				"2082"
+			],
+			"a": 4
+		},
+		{
+			"id": 157,
+			"q": "How many tiers can a pet go through from an egg to the final form?",
+			"options": [
+				"3",
+				"4",
+				"5",
+				"6",
+				"7"
+			],
+			"a": 2
 		},
 		{
 			"id": 158,
@@ -71,6 +1857,462 @@
 				"New World Elders will be determined at 0:00 on day 33+32n"
 			],
 			"a": 1
+		},
+		{
+			"id": 159,
+			"q": "Which position does the codename \"Rocket Scientist\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 160,
+			"q": "What is the chance of getting a legendary hero by breeding two rare heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 1
+		},
+		{
+			"id": 161,
+			"q": "What is the hero Power-up cost of breeding for two uncommon parents?",
+			"options": [
+				"60",
+				"200",
+				"600",
+				"2000",
+				"6000"
+			],
+			"a": 1
+		},
+		{
+			"id": 162,
+			"q": "What is the upper limit of probability from rarity uncommon to rare in a pet evolution process?",
+			"options": [
+				"5%",
+				"50%",
+				"60%",
+				"70%",
+				"80%"
+			],
+			"a": 3
+		},
+		{
+			"id": 163,
+			"q": "Which position does the codename \"Ape Commander\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 164,
+			"q": "Which position does the codename \"Biorobotic Soldier\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 165,
+			"q": "Which position does the codename \"Ruthless Warden\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 166,
+			"q": "Which position does the codename \"Guardian Angel\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 167,
+			"q": "Which position does the codename \"Combat Queen\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 168,
+			"q": "Which position does the codename \"The Yokozuna\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 163,
+			"q": "Which position does the codename \"Tactical Police\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 169,
+			"q": "Which position does the codename \"Blessed Kid\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 4
+		},
+		{
+			"id": 170,
+			"q": "Which position does the codename \"Meditating Master\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 171,
+			"q": "Which position does the codename \"Unstoppable Force\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 172,
+			"q": "Which position does the codename \"Amazon Warrior\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 163,
+			"q": "Which position does the codename \"Nuclear Martyr\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 173,
+			"q": "Which position does the codename \"Loan Shark\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 174,
+			"q": "Which position does the codename \"Altruistic Banker\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 175,
+			"q": "Which position does the codename \"Devil's Follower\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 176,
+			"q": "Which position does the codename \"Decommissioned Unit\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 177,
+			"q": "Which position does the codename \"Death's Hand\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 178,
+			"q": "Which position does the codename \"Professor Dark Matter\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 179,
+			"q": "Which position does the codename \"Lil' Bulldozer\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 1
+		},
+		{
+			"id": 180,
+			"q": "Which position does the codename \"Artificial Empathy\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 181,
+			"q": "Which position does the codename \"Praying Nun\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 182,
+			"q": "Which position does the codename \"Arctic Sheriff\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 183,
+			"q": "Which position does the codename \"High Priestess\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 184,
+			"q": "Which position does the codename \"Street Musician\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 185,
+			"q": "Which position does the codename \"Media Tycoon\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 186,
+			"q": "Which position does the codename \"The Godfather\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 187,
+			"q": "Which position does the codename \"Leader of the Pack\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 188,
+			"q": "Which position does the codename \"Historical Linguist\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 189,
+			"q": "Which position does the codename \"Telekinetic Woman\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 190,
+			"q": "Which position does the codename \"Charming Attorney\" belong to?",
+			"options": [
+				"Archer",
+				"Damage",
+				"Farming",
+				"Support",
+				"Tank"
+			],
+			"a": 3
+		},
+		{
+			"id": 191,
+			"q": "In a clan adventure, how to rank the participated players?",
+			"options": [
+				"According to the pet qualities one play has",
+				"According to the hero qualities one player has",
+				"According to the amount of damage they inflict",
+				"According to the base level one player has",
+				"According to the Weapon qualities one player has"
+			],
+			"a": 2
+		},
+		{
+			"id": 192,
+			"q": "What is the number that a player can bring to a battle?",
+			"options": [
+				"6",
+				"7",
+				"8",
+				"9",
+				"10"
+			],
+			"a": 0
+		},
+		{
+			"id": 193,
+			"q": "How many genesis heroes in total will be dropped through Hero Capsules?",
+			"options": [
+				"0",
+				"27",
+				"38",
+				"99",
+				"400"
+			],
+			"a": 4
+		},
+		{
+			"id": 194,
+			"q": "What is the twins probability for breeding for the first time breed?",
+			"options": [
+				"5%",
+				"10%",
+				"15%",
+				"20%",
+				"25%"
+			],
+			"a": 0
 		}
 	]
 }

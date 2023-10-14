@@ -9,6 +9,7 @@
 }
 
 body {
+  min-height: 100vh;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -16,4 +17,17 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+* {
+  transition: all 150ms;
+}
+
+@layer components {
+  .commonButton{
+    @apply flex items-center rounded-md py-2 md:py-4 tracking-wider bg-gray-800 shadow-md md:enabled:hover:bg-pink-900 disabled:opacity-40;
+  }
+  .commonPanel{
+    @apply relative bg-gray-800 rounded-md shadow-md;
+  }
 }
