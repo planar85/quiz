@@ -253,18 +253,6 @@
 			"a": 0
 		},
 		{
-			"id": 21,
-			"q": "What is the number of GMT required when levelling up a hero from level 9 to 10?",
-			"options": [
-				"2",
-				"3",
-				"4",
-				"5",
-				"6"
-			],
-			"a": 2
-		},
-		{
 			"id": 31,
 			"q": "How many fixed attributes types does each weapon has?",
 			"options": [
@@ -1126,7 +1114,7 @@
 				"Hero experience",
 				"Weapon reforging material"
 			],
-			"a": 1
+			"a": 0
 		},
 		{
 			"id": 90,
@@ -2313,6 +2301,105 @@
 				"25%"
 			],
 			"a": 0
+		},{
+			"id": 195,
+			"q": "Which attribute will not increase when levelling up a hero?",
+			"options": [
+				"Attack",
+				"Defense",
+				"All above",
+				"HP",
+				"MP"
+			],
+			"a": 4
+		},{
+			"id": 196,
+			"q": "What is the smallest number that is divisible by both 2 and 3?",
+			"options": [
+				"2",
+				"3",
+				"4",
+				"6",
+				"9"
+			],
+			"a": 3
+		},{
+			"id": 197,
+			"q": "What is the next number in the sequence: 2, 4, 6, 8, ...?",
+			"options": [
+				"9",
+				"10",
+				"11",
+				"12",
+				"14"
+			],
+			"a": 1
+		},{
+			"id": 198,
+			"q": "How much GMT is needed to change a Clan name?",
+			"options": [
+				"0 GMT",
+				"5 GMT",
+				"10 GMT",
+				"15 GMT",
+				"30 GMT"
+			],
+			"a": 1
+		},{
+			"id": 199,
+			"q": "What is the number of GMT required when levelling up a hero from level 51 to 52?",
+			"options": [
+				"None",
+				"1",
+				"4",
+				"12",
+				"36"
+			],
+			"a": 0
+		},{
+			"id": 200,
+			"q": "If there are three apples on the table and you take away two, how many do you have?",
+			"options": [
+				"0",
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"a": 2
+		},{
+			"id": 201,
+			"q": "What is the hero Power-up cost of breeding for two rare parents?",
+			"options": [
+				"60",
+				"200",
+				"600",
+				"2000",
+				"6000"
+			],
+			"a": 2
+		},{
+			"id": 202,
+			"q": "What is the chance of getting a legendary hero by breeding two legendary heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"90%",
+				"95%"
+			],
+			"a": 3
+		},{
+			"id": 203,
+			"q": "What is the price of expanding a new district?",
+			"options": [
+				"5 GMT",
+				"10 GMT",
+				"15GMT",
+				"20 GMT",
+				"100 GMT"
+			],
+			"a": 4
 		}
 	]
 }
