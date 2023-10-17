@@ -530,7 +530,7 @@
 		},
 		{
 			"id": 33,
-			"q": "WhiWhat is the chance of getting a legendary hero from a hero capsule?ch",
+			"q": "What is the chance of getting a legendary hero from a hero capsule?",
 			"options": [
 				"0%",
 				"20%",
@@ -598,7 +598,7 @@
 				"25%",
 				"30%"
 			],
-			"a": 2
+			"a": 3
 		},
 		{
 			"id": 40,
@@ -656,7 +656,7 @@
 				"Increase initial rage bar value",
 				"Action bar fills up faster",
 				"Add speed",
-				" Increase initial action bar value"
+				"Increase initial action bar value"
 			],
 			"a": 2
 		},
@@ -686,7 +686,7 @@
 		},
 		{
 			"id": 47,
-			"q": "In hero minting process, what is the chance of getting the same codename as either of its parents?",
+			"q": "In hero breeding process, what is the chance of getting the same codename as either of its parents?",
 			"options": [
 				"no chance",
 				"10%",
@@ -2398,6 +2398,110 @@
 				"15GMT",
 				"20 GMT",
 				"100 GMT"
+			],
+			"a": 4
+		},
+		{
+			"id": 204,
+			"q": "What are the fixed attributes of a Hammer weapon?",
+			"options": [
+				"Attack, Defense",
+				"Attack, Speed",
+				"Attack, MP",
+				"Attack, Combo",
+				"Attack, HP"
+			],
+			"a": 4
+		},
+		{
+			"id": 205,
+			"q": "What are the fixed attributes of a Staff weapon?",
+			"options": [
+				"Attack, Defense",
+				"Attack, Combo",
+				"Attack, Counter",
+				"Attakc, Critical",
+				"Attack, MP"
+			],
+			"a": 4
+		},
+		{
+			"id": 206,
+			"q": "What are the fixed attributes of a Book weapon?",
+			"options": [
+				"Attack, Defense",
+				"Attack, Combo",
+				"Attack, Counter",
+				"Attakc, Critical",
+				"Attack, Dodge"
+			],
+			"a": 0
+		},
+		{
+			"id": 207,
+			"q": "Which is the special function for a Dragon pet?",
+			"options": [
+				"Rage bar fills up faster",
+				"Increase initial rage bar value",
+				"Action bar fills up faster",
+				"Add speed",
+				"Increase initial action bar value"
+			],
+			"a": 1
+		},
+		{
+			"id": 208,
+			"q": "Which is the special function for a Treant pet?",
+			"options": [
+				"Rage bar fills up faster",
+				"Increase initial rage bar value",
+				"Action bar fills up faster",
+				"Add speed",
+				"Increase initial action bar value"
+			],
+			"a": 4
+		},{
+			"id": 209,
+			"q": "What would be different to different clan adventures difficulties?",
+			"options": [
+				"different of battle time",
+				"different of energy comsumption",
+				"different types of resources",
+				"different requirements of pet",
+				"different requirements of hero"
+			],
+			"a": 2
+		},{
+			"id": 210,
+			"q": "What is the chance of getting an uncommon hero by breeding two uncommon heroes?",
+			"options": [
+				"no chance",
+				"4.80%",
+				"10%",
+				"85%",
+				"95%"
+			],
+			"a": 3
+		},{
+			"id": 211,
+			"q": "In hero breeding process, what is the chance of getting a different codename from its parents?",
+			"options": [
+				"5%",
+				"10%",
+				"20%",
+				"30%",
+				"35%"
+			],
+			"a": 2
+		},{
+			"id": 212,
+			"q": "Which is not right for tax distribution ratio of one leader ?",
+			"options": [
+				"Clan Chief 20%",
+				"Guild Master 20%",
+				"District Rep 20%",
+				"City Mayor 20%",
+				"World Elder 20%"
 			],
 			"a": 4
 		}

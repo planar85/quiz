@@ -2,7 +2,7 @@ import Head from 'next/head'
 import path from 'path'
 import fsPromises from 'fs/promises'
 import { Inconsolata } from 'next/font/google'
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 const inco = Inconsolata({ subsets: ['latin'] })
 
@@ -49,6 +49,8 @@ export default function Home({queries}) {
 	const [batsu, setBatsu] = useState(0);
 	const [_spendTime, _setSpendTime] = useState(0);
 	const [spendTime, setSpendTime] = useState(0);
+	const [bads, setBads] = useState([]);
+
 
 
 	function good(){
@@ -63,26 +65,20 @@ export default function Home({queries}) {
 		setShow(true);
 		setBatsu( batsu+1);
 		stopWatch();
+		bads.push(query);
 	}
 	function next(){
 		setShow(false);
 		setSeikai(false);
+		
 		if( hasNext ){
 			startWatch();
-			setIndex( index+1 );
+			setIndex( i => i + 1 );
 		}else{
 			setPhase(2);
 		}
 	}
-	function prev(){
-		setShow(false);
-		setSeikai(false);
-		if(hasPrev){
-			setIndex( index-1);
-		}else{
-			setIndex(max-1);
-		}
-	}
+
 	let query = queries[index];
 
 	function go(){
@@ -91,10 +87,12 @@ export default function Home({queries}) {
 	}
 
 	function exit(){
-		setPhase(2);	
+		stopWatch();
+		setPhase(2);
 	}
 	
 	function restart(){
+		setBads([]);
 		setIndex(0);
 		setShow(false);
 		setSeikai(false);
@@ -113,9 +111,44 @@ export default function Home({queries}) {
 		setSpendTime( spendTime + new Date().getTime() - _spendTime);
 	}
 
-	const Button = ({label, correct, show, seikai}) => {
-		return <button className={`w-full px-3 py-3 text-left ${(!seikai || !correct) ? 'md:hover:bg-gray-900' : ''} ${(seikai && correct) ? 'text-green-500 bg-green-900' : ''} ${show ? (correct ? 'text-green-500' : 'text-red-500') : 'text-white'}`} onClick={()=>{ correct ? good() : wrong()  }}>{label}</button>;
-	}
+	const Button = ({label, correct, show, seikai, disabled}) => {
+		return <button className={`w-full px-3 py-3 text-left ${(!seikai || !correct) ? 'md:enabled:hover:bg-gray-900' : ''} ${(seikai && correct) ? 'text-green-500 bg-green-900' : ''} ${show ? (correct ? 'text-green-500' : 'text-red-500') : 'text-white'}`} onClick={()=>{ correct ? good() : wrong()  }} disabled={disabled}>{label}</button>;
+	}	
+
+	const keyFunc = ((event) => {
+		const _options = query.options;
+
+		switch( event.keyCode) {
+			case 65:
+				_options[0].correct ? good() : wrong();
+				break;
+			case 66:
+				_options[1].correct ? good() : wrong();
+				break;
+			case 67:
+				_options[2].correct ? good() : wrong();
+				break;
+			case 68:
+				_options[3].correct ? good() : wrong();
+				break;
+			case 69:
+				_options[4].correct ? good() : wrong();
+				break;
+			case 27:
+				exit();
+				break;
+			case 13, 39:
+				if( show && !seikai) next();
+				break;
+		}
+	});
+
+	useEffect( ()=>{
+		document.addEventListener( "keydown", keyFunc, false);
+		return (()=>{
+			document.removeEventListener( "keydown", keyFunc, false);
+		});
+	});
 
 	return (
 		<>
@@ -148,7 +181,7 @@ export default function Home({queries}) {
 				<div className={`commonPanel w-full px-2 py-2 md:px-9 md:py-6 mt-4 text-base md:text-lg divide-y divide-dashed divide-gray-600 leading-5 md:leading-6`}>
 					{
 						query.options.map( (option, i) => (
-							<Button label={`${PRE[i]}. ${option.label}`} correct={option.correct} show={show} seikai={seikai} key={i} />
+							<Button label={`${PRE[i]}. ${option.label}`} correct={option.correct} show={show} seikai={seikai} key={i} disabled={false} />
 						))
 					}
 				</div>
@@ -168,7 +201,7 @@ export default function Home({queries}) {
 			</section>
 
 			{/* result */}
-			<section className={`${phase==2 ? 'show' : 'hidden'} w-96 grid grid-cols-2 gap-4`}>
+			<section className={`${phase==2 ? 'show' : 'hidden'} w-full lg:w-[50%] grid grid-cols-2 gap-4 py-4`}>
 				<div className={`commonPanel flex flex-wrap justify-center py-6 pb-4`}>
 					<span className={`flex justify-center items-center w-10 h-10 bg-green-600 rounded-full`}>
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="black" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z" /></svg>
@@ -191,9 +224,29 @@ export default function Home({queries}) {
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" /></svg>
 					<span className={`ml-2`}>RESTART</span>
 				</button>
+				{
+					bads.map( (_query, i)=>(
+						<div key={i} className={`col-span-2`}>
+							<div className={`commonPanel w-full px-4 py-4 md:py-6 md:px-12 text-lg md:text-xl font-medium leading-5 md:leading-6`}>
+								<div className={`pt-4 pb-2`}>
+									{_query.q}
+								</div>
+								<div className={`text-base md:text-lg divide-y divide-dashed divide-gray-600 leading-5 md:leading-6`}>
+								{
+								_query.options.map( (option, j) => (
+									<Button label={`${PRE[j]}. ${option.label}`} correct={option.correct} show={true} seikai={false} key={j} disabled={true} />
+								))
+								}
+								</div>
+							</div>
+						</div>
+					))
+				}
 			</section>
 
 		</main>
 		</>
-	)
+	);
+
+
 }
