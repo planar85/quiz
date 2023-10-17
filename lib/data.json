@@ -2504,6 +2504,41 @@
 				"World Elder 20%"
 			],
 			"a": 4
+		},
+		{
+			"id": 213,
+			"q": "Where can a player obtain Pet evolution items?",
+			"options": [
+				"AI factory",
+				"Gas Minde",
+				"Zoo",
+				"Battlefiled",
+				"Living Area"
+			],
+			"a": 4
+		},
+		{
+			"id": 214,
+			"q": "What are the fixed attributes of a Sword weapon?",
+			"options": [
+				"Attack, Speed",
+				"Attack, Combo",
+				"Attack, Counter",
+				"Attakc, Critical",
+				"Attack, HP"
+			],
+			"a": 1
+		},{
+			"id": 215,
+			"q": "What is the hero Power-up cost of breeding for an epic single parent?",
+			"options": [
+				"30",
+				"100",
+				"300",
+				"1000",
+				"3000"
+			],
+			"a": 3
 		}
 	]
 }
