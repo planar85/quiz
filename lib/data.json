@@ -377,7 +377,7 @@
 			"q": "What will be consumed when heroes use their skills in a battle?",
 			"options": [
 				"HP",
-				"SP",
+				"MP",
 				"Time",
 				"Action bar",
 				"Rage bar"
@@ -834,7 +834,7 @@
 			"options": [
 				"Rarity",
 				"Defense",
-				"SP",
+				"MP",
 				"Speed",
 				"All above"
 			],
@@ -1038,7 +1038,7 @@
 			"options": [
 				"HP",
 				"Defense",
-				"SP",
+				"MP",
 				"Level",
 				"Attack"
 			],
@@ -1086,7 +1086,7 @@
 			"options": [
 				"Rarity",
 				"Attack",
-				"SP",
+				"MP",
 				"Speed",
 				"All above"
 			],
@@ -1493,7 +1493,7 @@
 				"Rarity",
 				"HP",
 				"Speed",
-				"SP",
+				"MP",
 				"All above"
 			],
 			"a": 1
@@ -2551,16 +2551,27 @@
 			],
 			"a": 3
 		},{
-			"id": 216,
-			"q": "Which number comes next in this series: 1, 2, 4, ...?",
+			"id": 217,
+			"q": "Each city may can have multiple districts, but how many districts would there be in every city when the game starts?",
 			"options": [
-				"5",
-				"6",
-				"7",
-				"8",
-				"9"
+				"0",
+				"2",
+				"9",
+				"15",
+				"175"
 			],
-			"a": 3
+			"a": 1
+		},{
+			"id": 218,
+			"q": "How many power-up items are needed when levelling up a hero from level 2 to 3?",
+			"options": [
+				"1",
+				"2",
+				"6",
+				"8",
+				"54"
+			],
+			"a": 0
 		}
 	]
 }
