@@ -374,7 +374,7 @@
 		},
 		{
 			"id": 12,
-			"q": "What will be consumed when heroes use their skills in a battle?",
+			"q": "What might be consumed when heroes use their skills in a battle?",
 			"options": [
 				"HP",
 				"MP",
@@ -2267,18 +2267,6 @@
 			"a": 2
 		},
 		{
-			"id": 192,
-			"q": "What is the number that a player can bring to a battle?",
-			"options": [
-				"6",
-				"7",
-				"8",
-				"9",
-				"10"
-			],
-			"a": 0
-		},
-		{
 			"id": 193,
 			"q": "How many genesis heroes in total will be dropped through Hero Capsules?",
 			"options": [
@@ -2572,6 +2560,128 @@
 				"54"
 			],
 			"a": 0
+		},{
+			"id": 219,
+			"q": "How many sides does a rectangle have?",
+			"options": [
+				"2",
+				"3",
+				"4",
+				"5",
+				"6"
+			],
+			"a": 2
+		},{
+			"id": 220,
+			"q": "Which of the following statements is not right about nuclear radiation?",
+			"options": [
+				"Heroes with lower rarity can withstand the radiation for a longer period of time",
+				"The number of days the hero can survive is not the same, as it depends on their rarity",
+				"The higher the rarity of the hero, the more nuclear radiationthey can withstand",
+				"The legendary heroes will also die",
+				"The genesis heroes never die"
+			],
+			"a": 0
+		},{
+			"id": 221,
+			"q": "How many hero rareties totally in Gas Hero?",
+			"options": [
+				"5",
+				"6",
+				"7",
+				"8",
+				"9"
+			],
+			"a": 0
+		},
+		{
+			"id": 222,
+			"q": "When reforging a weapon, which statement is not right?",
+			"options": [
+				"When the number of consecutive reforgings reaches a certain number, the lower limit of the random value range will be increased, which can happen multiple times.",
+				"The values of all attributes of the weapon will be randomly reshuffled within a certain range.",
+				"Selling will not result in the accumulated number of reforgings being reset to 0.",
+				"The types and amount of attributes of the weapon will not change.",
+				"If there is no reforging for 1 hour, the accumulated number of reforgings will be reset to 0."
+			],
+			"a": 2
+		},{
+			"id": 223,
+			"q": "What is the auction currency in Gas Hero?",
+			"options": [
+				"MATIC",
+				"BTC",
+				"GST",
+				"GMT",
+				"USDT"
+			],
+			"a": 3
+		},{
+			"id": 224,
+			"q": "Which one of below statements is not right?",
+			"options": [
+				"The guild master can spend 10 GMT to change the guild name.",
+				"The guild master can't initiate guild adventures",
+				"The clan chief can initiate clan adventures.",
+				"The clan chief can spend 5 GMT to change the clan name.",
+				"The guild master can expel non-officer users from the guild."
+			],
+			"a": 1
+		},{
+			"id": 225,
+			"q": "What is the chance of getting a rare hero by breeding two legendary heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"5%",
+				"10%",
+				"95%"
+			],
+			"a": 1
+		},{
+			"id": 226,
+			"q": "About the clan adventure, which of the below statements is wrong?",
+			"options": [
+				"When the players in this clan have collectively expended 1200 points of energy, the clan will have an opportunity for a clan adventure.",
+				"Only the clan leader can submit their clan members' lineups and launch the adventure.",
+				"A successful mission is achieved by defeating a certain amount of enemies. The more enemies defeated, the greater the rewards.",
+				"Each player has a set period of combat time.",
+				"Clan adventures have multiple difficulties, each of which can yield different types of resources."
+			],
+			"a": 1
+		},{
+			"id": 227,
+			"q": "What is the number of GMT required when levelling up a hero from level 59 to 60?",
+			"options": [
+				"1",
+				"4",
+				"12",
+				"36",
+				"108"
+			],
+			"a": 4
+		},{
+			"id": 228,
+			"q": "What will be the maximum energy increase if you level up your base to level 15?",
+			"options": [
+				"22",
+				"24",
+				"26",
+				"28",
+				"30"
+			],
+			"a": 3
+		},{
+			"id": 229,
+			"q": "What is the chance of getting a rare hero by breeding two epic heroes?",
+			"options": [
+				"no chance",
+				"0.20%",
+				"4.80%",
+				"10%",
+				"95%"
+			],
+			"a": 3
 		}
 	]
 }
