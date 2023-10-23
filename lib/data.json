@@ -2682,6 +2682,28 @@
 				"95%"
 			],
 			"a": 3
+		},{
+			"id": 230,
+			"q": "What is the probability base from rarity uncommon to rare in a pet evolution process?",
+			"options": [
+				"5%",
+				"50%",
+				"60%",
+				"70%",
+				"80%"
+			],
+			"a": 0
+		},{
+			"id": 231,
+			"q": "When reforging a weapon, which statement is not right?",
+			"options": [
+				"When the number of consecutive reforgings reaches a certain number, the lower limit of the random value range will be increased, which can happen multiple times.",
+				"The values of all attributes of the weapon will be randomly reshuffled within a certain range.",
+				"Selling will result in the accumulated number of reforgings being reset to 0.",
+				"If there is no reforging for 12 hour, the accumulated number of reforgings will be reset to 0.",
+				"The types and amount of attributes of the weapon will not change."
+			],
+			"a": 3
 		}
 	]
 }
