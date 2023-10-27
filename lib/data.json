@@ -2704,6 +2704,149 @@
 				"The types and amount of attributes of the weapon will not change."
 			],
 			"a": 3
+		},{
+			"id": 232,
+			"q": "What is the price of changing a district name?",
+			"options": [
+				"5 GMT",
+				"10 GMT",
+				"15GMT",
+				"20 GMT",
+				"100 GMT"
+			],
+			"a": 3
+		},{
+			"id": 233,
+			"q": "Which chain is Gas Hero on?",
+			"options": [
+				"Polygon",
+				"sol",
+				"BTC",
+				"bnb",
+				"eth"
+			],
+			"a": 0
+		},{
+			"id": 234,
+			"q": "Which is not the primary attributes of a legendary hero in this game?",
+			"options": [
+				"Attack",
+				"Defense",
+				"Rarity",
+				"MP",
+				"HP"
+			],
+			"a": 2
+		},{
+			"id": 235,
+			"q": "How many pet evolution items are needed if a player intends to evolve a common pet from tier 3 to 4?",
+			"options": [
+				"50",
+				"100",
+				"200",
+				"300",
+				"400"
+			],
+			"a": 2
+		},{
+			"id": 236,
+			"q": "How many pet evolution items are needed if a player intends to evolve an uncommon pet from tier 2 to 3?",
+			"options": [
+				"50",
+				"100",
+				"300",
+				"600",
+				"1200"
+			],
+			"a": 2
+		},{
+			"id": 237,
+			"q": "How many pet evolution items are needed if a player intends to evolve an uncommon pet from tier 4 to 5?",
+			"options": [
+				"50",
+				"100",
+				"300",
+				"600",
+				"1200"
+			],
+			"a": 4
+		},{
+			"id": 238,
+			"q": "How many pet evolution items are needed if a player intends to evolve a rare pet from tier 3 to 4?",
+			"options": [
+				"300",
+				"600",
+				"1200",
+				"1800",
+				"3600"
+			],
+			"a": 3
+		},{
+			"id": 239,
+			"q": "What is the price of changing a guild name?",
+			"options": [
+				"5 GMT",
+				"10 GMT",
+				"15GMT",
+				"20 GMT",
+				"100 GMT"
+			],
+			"a": 1
+		},{
+			"id": 240,
+			"q": "Who is supposed to launch the clan advanture?",
+			"options": [
+				"Senior member of the clan (at least 3)",
+				"System automatically start",
+				"All above",
+				"All clan member together",
+				"Clan leader"
+			],
+			"a": 4
+		},{
+			"id": 241,
+			"q": "Which is not the pet in the first season of Gas Hero?",
+			"options": [
+				"Crayfish",
+				"Dragon",
+				"Treant",
+				"Crab",
+				"Panda"
+			],
+			"a": 0
+		},{
+			"id": 242,
+			"q": "What is not the condition to breed a hero?",
+			"options": [
+				"Parents must reach level 10",
+				"Each hero can breed once every 3 days",
+				"Parents have to attend 10 times in battle",
+				"Parents need to be one male and one female",
+				"Each Parent’s breed times is less than 7"
+			],
+			"a": 2
+		},{
+			"id": 243,
+			"q": "What is 9 times 3?",
+			"options": [
+				"3",
+				"12",
+				"18",
+				"27",
+				"100"
+			],
+			"a": 3
+		},{
+			"id": 244,
+			"q": "When upgrading heroes, what is additional needed when the level is a multiple of 10?",
+			"options": [
+				"GST",
+				"GMT",
+				"Hero scroll",
+				"Hero fragment",
+				"All above"
+			],
+			"a": 1
 		}
 	]
 }
