@@ -1839,12 +1839,12 @@
 			"q": "Assuming the game starts on day 1, which is not right? (n=0, 1, 2, 3...)",
 			"options": [
 				"New Clan Chief will be determined at 0:00 on day 3+4n",
-				"New Guild Master will be determined at 0:00 on day 6+8n",
+				"New Guild Master will be determined at 0:00 on day 5+8n",
 				"New District Rep will be determined at 0:00 on day 9+16n",
 				"New City Mayor will be determined at 0:00 on day 17+32n",
-				"New World Elders will be determined at 0:00 on day 33+32n"
+				"New World Elders will be determined at 0:00 on day 33+52n"
 			],
-			"a": 1
+			"a": 4
 		},
 		{
 			"id": 159,
@@ -2847,6 +2847,94 @@
 				"All above"
 			],
 			"a": 1
+		},{
+			"id": 245,
+			"q": "About the clan adventure, which of the below statements is wrong?",
+			"options": [
+				"A successful mission is achieved by defeating a certain amount of enemies. The more enemies defeated, the greater the rewards.",
+				"Clan adventures have multiple difficulties, each of which can yield different types of resources.",
+				"When the players in this clan have collectively expended 120 points of energy, the clan will have an opportunity for a clan adventure.",
+				"After clan members submit their lineups, the leader can launch the adventure.",
+				"Each player has a set period of combat time."
+			],
+			"a": 2
+		},{
+			"id": 246,
+			"q": "What is the total tax rate in Gas Hero?",
+			"options": [
+				"0%",
+				"2%",
+				"4%",
+				"6%",
+				"8%"
+			],
+			"a": 3
+		},{
+			"id": 247,
+			"q": "What is 12 x 5？",
+			"options": [
+				"30",
+				"40",
+				"50",
+				"60",
+				"70"
+			],
+			"a": 3
+		},{
+			"id": 248,
+			"q": "When a player is embarking on personal adventure, how much energy is needed to attend?",
+			"options": [
+				"1",
+				"2",
+				"3",
+				"4",
+				"5"
+			],
+			"a": 4
+		},{
+			"id": 249,
+			"q": "How to get a Base Construction Vehicle (BCV)?",
+			"options": [
+				"Reward from a battle",
+				"Automotive shop",
+				"Give a hug to Johnny",
+				"Official social events and in-game market",
+				"Pray to God"
+			],
+			"a": 3
+		},{
+			"id": 250,
+			"q": "What is the learning probability of the 1st skill when a hero is levelling up?",
+			"options": [
+				"6%",
+				"8%",
+				"10%",
+				"14%",
+				"20%"
+			],
+			"a": 4
+		},{
+			"id": 251,
+			"q": "In real life, what item has keys but can't open locks?",
+			"options": [
+				"A safe",
+				"Map",
+				"Piano",
+				"A car",
+				"Diary"
+			],
+			"a": 2
+		},{
+			"id": 252,
+			"q": "If a player failed in a personal adventure, how much energy will be refunded?",
+			"options": [
+				"1",
+				"2",
+				"3",
+				"4",
+				"5"
+			],
+			"a": 3
 		}
 	]
 }
