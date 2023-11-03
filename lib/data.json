@@ -2935,6 +2935,17 @@
 				"5"
 			],
 			"a": 3
+		},{
+			"id": 253,
+			"q": "How much will the twins probability increase for breeding if there's already 7 times breed?",
+			"options": [
+				"10%",
+				"15%",
+				"20%",
+				"25%",
+				"can't breed anymore"
+			],
+			"a": 4
 		}
 	]
 }
